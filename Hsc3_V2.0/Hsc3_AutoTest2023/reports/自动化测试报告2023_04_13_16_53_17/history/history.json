@@ -1,0 +1,80 @@
+{
+  "f71ca88ca8e84a101836ed4a141c0a93" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9332a972be5600d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681375997171,
+        "stop" : 1681375997172,
+        "duration" : 1
+      }
+    } ]
+  },
+  "af1aa2b6f6760370fcb74bdc5d44093d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48ceee1e798ab878",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: V2.0不支持telnet协议",
+      "time" : {
+        "start" : 1681375997168,
+        "stop" : 1681375997168,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9138958cb6da338de0918e21fa51a9c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4539a0834bf81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681375997115,
+        "stop" : 1681375997115,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3fc1fbce9329459146ae79ba83137fa4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ceb7566d6cd1aa1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言失败\nassert 1 == 2",
+      "time" : {
+        "start" : 1681375997117,
+        "stop" : 1681375997117,
+        "duration" : 0
+      }
+    } ]
+  }
+}

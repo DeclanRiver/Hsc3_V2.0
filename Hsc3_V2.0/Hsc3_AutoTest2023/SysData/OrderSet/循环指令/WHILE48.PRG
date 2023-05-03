@@ -1,0 +1,25 @@
+<attr>
+VERSION:0
+GROUP:[0]
+<end>
+<pos>
+<end>
+<program>
+
+WHILE DI[500]=OFF
+R[61] = R[61]+1
+WHILE R[0]=1
+R[62] = R[62]+1
+WHILE JR[0][0]=10
+R[63] = R[63]+1
+WHILE LR[0][0]=111
+R[64] = R[64]+1
+WHILE DO[500]=ON
+R[60] = R[60]+1
+END WHILE
+END WHILE
+END WHILE
+END WHILE
+END WHILE
+<end>
+    

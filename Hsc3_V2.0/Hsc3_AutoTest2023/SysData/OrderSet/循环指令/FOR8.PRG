@@ -1,0 +1,24 @@
+<attr>
+VERSION:0
+GROUP:[0]
+<end>
+<pos>
+<end>
+<program>
+
+FOR R[8] = 0 TO 5 BY 2
+FOR R[9] = 5 TO 6
+FOR R[10] = -12 TO 5 BY 4
+FOR R[11] = 0 TO 6
+FOR R[12] = -3 TO -2
+FOR R[13] = -1 TO 1
+FOR R[14] = 900 TO 905
+R[30] = R[30]+1 '1890
+END FOR
+END FOR
+END FOR
+END FOR
+END FOR
+END FOR
+END FOR
+<end>

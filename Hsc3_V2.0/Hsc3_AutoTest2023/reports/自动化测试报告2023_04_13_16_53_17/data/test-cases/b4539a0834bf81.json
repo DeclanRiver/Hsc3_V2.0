@@ -1,0 +1,110 @@
+{
+  "uid" : "b4539a0834bf81",
+  "name" : "test_冒烟测试1",
+  "fullName" : "Testcase.V2.0.test_冒烟测试用例.Test_HSC3冒烟测试#test_冒烟测试1",
+  "historyId" : "9138958cb6da338de0918e21fa51a9c5",
+  "time" : {
+    "start" : 1681375997115,
+    "stop" : 1681375997115,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ftp文件传输fixture",
+    "time" : {
+      "start" : 1681375997113,
+      "stop" : 1681375997113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "系统状态监测fixture",
+    "time" : {
+      "start" : 1681375997114,
+      "stop" : 1681375997114,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "ftp文件传输fixture::0",
+    "time" : {
+      "start" : 1681375997173,
+      "stop" : 1681375997173,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Testcase.V2.0"
+  }, {
+    "name" : "suite",
+    "value" : "test_冒烟测试用例"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_HSC3冒烟测试"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AS4K0DF"
+  }, {
+    "name" : "thread",
+    "value" : "1576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcase.V2.0.test_冒烟测试用例"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "13e03655e440d851",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'pVm' is not defined",
+      "time" : {
+        "start" : 1681375963433,
+        "stop" : 1681375963433,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b4539a0834bf81.json",
+  "parameterValues" : [ ]
+}

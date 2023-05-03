@@ -1,0 +1,73 @@
+{
+  "uid" : "399e75356e9965ed",
+  "name" : "test_冒烟测试4",
+  "fullName" : "Testcase.V2.0.test_冒烟测试用例.Test_HSC3冒烟测试#test_冒烟测试4",
+  "historyId" : "f71ca88ca8e84a101836ed4a141c0a93",
+  "time" : {
+    "start" : 1681375963509,
+    "stop" : 1681375963509,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'pVm' is not defined",
+  "statusTrace" : "@pytest.fixture(scope=\"package\",autouse=True)\n    def ftp文件传输fixture():\n        print(\"\\033[1;31m [包级别前置]：连接，测试数据文件上传\\033[0m\")\n        IP = '10.10.56.214'\n        user = 'root'\n        password = '111111'\n        ftp_path = '/usr/codesys/hsc3_app/script'\n        local_path = 'D:/SVN/File/测试/III型自动化测试/AutoProject/2023/Hsc3_AutoTest2023/SysData/OrderSet'\n>       if pVm.mainProgNames()[1]:\nE       NameError: name 'pVm' is not defined\n\nconftest.py:30: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ftp文件传输fixture",
+    "time" : {
+      "start" : 1681375963434,
+      "stop" : 1681375963434,
+      "duration" : 0
+    },
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'pVm' is not defined\n",
+    "statusTrace" : "  File \"D:\\software\\ptyhon3.7.6_x64\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"D:\\software\\ptyhon3.7.6_x64\\lib\\site-packages\\_pytest\\fixtures.py\", line 1129, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"D:\\software\\ptyhon3.7.6_x64\\lib\\site-packages\\_pytest\\fixtures.py\", line 901, in call_fixture_func\n    fixture_result = next(generator)\n  File \"D:\\SVN\\File\\测试\\III型自动化测试\\AutoProject\\2023\\Hsc3_AutoTest2023\\conftest.py\", line 30, in ftp文件传输fixture\n    if pVm.mainProgNames()[1]:\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Testcase.V2.0"
+  }, {
+    "name" : "suite",
+    "value" : "test_冒烟测试用例"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_HSC3冒烟测试"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AS4K0DF"
+  }, {
+    "name" : "thread",
+    "value" : "11304-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcase.V2.0.test_冒烟测试用例"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "399e75356e9965ed.json",
+  "parameterValues" : [ ]
+}

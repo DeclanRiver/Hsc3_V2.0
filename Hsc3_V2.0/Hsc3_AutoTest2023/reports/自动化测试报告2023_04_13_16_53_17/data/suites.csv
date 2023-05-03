@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Apr 13 16:53:17 CST 2023","Thu Apr 13 16:53:17 CST 2023","0","Testcase.V2.0","test_冒烟测试用例","Test_HSC3冒烟测试","","","test_冒烟测试2",""
+"passed","Thu Apr 13 16:53:17 CST 2023","Thu Apr 13 16:53:17 CST 2023","1","Testcase.V2.0","test_冒烟测试用例","Test_HSC3冒烟测试","","","test_冒烟测试4",""
+"passed","Thu Apr 13 16:53:17 CST 2023","Thu Apr 13 16:53:17 CST 2023","0","Testcase.V2.0","test_冒烟测试用例","Test_HSC3冒烟测试","","","test_冒烟测试1",""
+"skipped","Thu Apr 13 16:53:17 CST 2023","Thu Apr 13 16:53:17 CST 2023","0","Testcase.V2.0","test_冒烟测试用例","Test_HSC3冒烟测试","","","test_冒烟测试3",""

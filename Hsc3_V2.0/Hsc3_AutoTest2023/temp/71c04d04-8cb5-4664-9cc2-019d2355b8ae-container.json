@@ -1,0 +1,1 @@
+{"uuid": "a01f77ff-5f35-4cc3-ae6e-560c82788921", "children": ["030c2656-b379-44f1-bd5f-2f803f5ac1b1", "5328bd34-4994-46a7-8d2a-ff9b71d62fe6", "70cb04fe-a81b-44ee-b602-21a3946f571e", "8a1fab93-ae68-4dc6-b9be-fc6d0b513221"], "befores": [{"name": "系统状态监测fixture", "status": "passed", "start": 1681377143222, "stop": 1681377143222}], "start": 1681377143222, "stop": 1681377143277}

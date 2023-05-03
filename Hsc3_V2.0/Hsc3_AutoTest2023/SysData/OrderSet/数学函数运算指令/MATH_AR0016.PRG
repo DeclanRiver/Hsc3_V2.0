@@ -1,0 +1,11 @@
+<attr>
+VERSION:0
+GROUP:[0]
+<end>
+<pos>
+P[0]{GP:0,UF:-1,UT:-1,JNT:[100,-90,180,0,90,0,0,0,0]};
+<end>
+<program>
+
+R[16] = ROUND ROUND 102.01
+<end>

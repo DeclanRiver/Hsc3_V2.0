@@ -1,0 +1,41 @@
+[ {
+  "uid" : "e9332a972be5600d",
+  "name" : "test_冒烟测试4",
+  "time" : {
+    "start" : 1681375997171,
+    "stop" : 1681375997172,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ceb7566d6cd1aa1",
+  "name" : "test_冒烟测试2",
+  "time" : {
+    "start" : 1681375997117,
+    "stop" : 1681375997117,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "48ceee1e798ab878",
+  "name" : "test_冒烟测试3",
+  "time" : {
+    "start" : 1681375997168,
+    "stop" : 1681375997168,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b4539a0834bf81",
+  "name" : "test_冒烟测试1",
+  "time" : {
+    "start" : 1681375997115,
+    "stop" : 1681375997115,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

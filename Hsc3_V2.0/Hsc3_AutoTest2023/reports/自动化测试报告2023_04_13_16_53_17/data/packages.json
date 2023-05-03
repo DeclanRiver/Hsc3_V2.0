@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Testcase.V2.0.test_冒烟测试用例",
+    "children" : [ {
+      "name" : "test_冒烟测试1",
+      "uid" : "b4539a0834bf81",
+      "parentUid" : "40228d5423fcfcd46ed4dc97ff0159cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681375997115,
+        "stop" : 1681375997115,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_冒烟测试2",
+      "uid" : "3ceb7566d6cd1aa1",
+      "parentUid" : "40228d5423fcfcd46ed4dc97ff0159cc",
+      "status" : "failed",
+      "time" : {
+        "start" : 1681375997117,
+        "stop" : 1681375997117,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_冒烟测试3",
+      "uid" : "48ceee1e798ab878",
+      "parentUid" : "40228d5423fcfcd46ed4dc97ff0159cc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1681375997168,
+        "stop" : 1681375997168,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_冒烟测试4",
+      "uid" : "e9332a972be5600d",
+      "parentUid" : "40228d5423fcfcd46ed4dc97ff0159cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681375997171,
+        "stop" : 1681375997172,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "Testcase.V2.0.test_冒烟测试用例"
+  } ]
+}

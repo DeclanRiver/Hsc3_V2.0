@@ -1,0 +1,10 @@
+<attr>
+VERSION:0
+GROUP:[0]
+<end>
+<pos>
+<end>
+<program>
+
+THROW "11111111112222222222333333333366" LEVEL=FATAL
+<end>
